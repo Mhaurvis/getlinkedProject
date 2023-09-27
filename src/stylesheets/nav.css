@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3em;
+}
+
+.navbar p{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navLinks{
+    color: white;
+    font-size: 15px;
+    padding-right: 3em;
+    text-decoration: none;
+}
+
+.navButton{
+    padding: 10px 3em;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient( to right, #D434FE, #903AFF);
+    border: 1px solid #903AFF;
+    border-radius: 4px;
+}
+
+.mobile-menu-button{
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width: 800px){
+    .menu{
+        display: none;
+        background-color: yellow;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .menu .active{
+        display: flex;
+    }
+
+    .mobile-menu-button{
+        display: block;
+    }
+}

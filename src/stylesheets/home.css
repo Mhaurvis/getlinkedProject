@@ -1,0 +1,214 @@
+.home{
+  background-color: #150E28;
+  box-sizing: border-box;
+  font-family: segoe UI Symbol;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 2em;
+}
+
+/* .s-leadText{
+    padding:0 1em;
+} */
+
+.s-leadFirstText{
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.s-leadSecondText{
+    font-size: 1.3em;
+}
+
+.s-leadThirdText{
+    font-size: 3em;
+}
+
+.s-leadThirdText span{
+    font-size: 15px;
+}
+
+.s-Button{
+    padding: 20px 3em;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient( to right, #D434FE, #903AFF);
+    border: 1px solid #903AFF;
+    border-radius: 4px;
+}
+
+.s-img{
+    position: relative;
+}
+
+.secondImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.thirdImg{
+    position: absolute;
+    bottom: 80px;
+    right: 500px;
+    z-index: 1;
+}
+
+.sectionTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 2em 4em;
+}
+
+.s2-leadText{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.sectionThree{
+    display: grid;
+    padding:2em 4em;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s3-leadText{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.sectionFour{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding:2em 4em;
+}
+
+.s4-leadText{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.s4-button{
+    padding: 8px 2em;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient( to right,  rgb(247, 83, 110), #903AFF);
+    border: 1px solid rgb(241, 142, 159);
+    border-radius: 2px;
+}
+
+.sectionFive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding:2em 4em;
+}
+
+.s5-leadText{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.sectionSeven{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding:2em 4em;
+}
+
+.s7-leadText{
+    font-size: 2.5em;
+    font-weight: 600;   
+}
+
+.sectionEight{
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    align-items: center;
+    background-color: rgba(177, 175, 175, 0.03);
+}
+
+.sectionNine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 2em 4em;
+}
+
+.s9-leadText{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.policy1{
+    font-size: 13px;
+    color: rgb(177, 174, 174);
+}
+
+.policy{
+    border: 1px solid #D434FE;
+    padding: 3em;
+    margin-top: 3em;
+}
+
+.policyButton{
+    padding: 8px 2em;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient( to right,  rgb(247, 83, 110), #903AFF);
+    border: 1px solid rgb(241, 142, 159);
+    border-radius: 2px;
+}
+
+.policy-imgs{
+    position: relative;
+}
+
+.policy2Img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width:850px){
+    .section{
+        grid-template-columns: 1fr;
+    }
+
+    .sectionTwo{
+        grid-template-columns: 1fr;
+    }
+
+    .sectionThree{
+        grid-template-columns: 1fr;
+    }
+
+    .sectionFour{
+        grid-template-columns: 1fr;
+    }
+
+    .sectionFive{
+        grid-template-columns: 1fr;
+    }
+
+    .sectionSeven{
+        grid-template-columns: 1fr;
+    }
+
+    .sectionNine{
+        grid-template-columns: 1fr;
+    }
+}

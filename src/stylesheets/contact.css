@@ -1,0 +1,124 @@
+.contact{
+    background-color: #150E28;
+    box-sizing: border-box;
+    font-family: segoe UI Symbol;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+/* .myContactPage{
+    border: 1px solid rgb(72, 72, 235);
+} */
+
+.contactForm{
+    background-color: rgba(177, 175, 175, 0.1);
+    padding: 3em;
+    width: 70%;
+}
+
+.myContactPage{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding: 4em 3em;
+}
+
+.contactUS p:nth-child(1){
+    font-size: 2.8em;
+    font-weight: 600;
+    color: #D434FE;
+}
+
+.contactUS p:nth-child(6){
+    color: #D434FE;
+}
+
+.contactUS span{
+    color: white;
+    padding-right: 10px;
+}
+
+.myForm input{
+    width: 90%;
+    padding: 15px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.myForm textarea{
+   background-color: transparent;
+   width: 94%;
+   color: white;
+   border: 1px solid white;
+}
+
+.myForm input::placeholder{
+    color: white;
+}
+
+.myForm textarea::placeholder{
+    color: white;
+    padding: 4px;
+}
+
+.formButton{
+    padding: 10px 2em;
+    margin-top: 1em;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient( to right, #D434FE, #903AFF);
+    border: 1px solid #903AFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.contactLinks{
+    display: none;
+}
+
+@media screen and (max-width:650px){
+    .myContactPage{
+        padding: 1em;
+    }
+
+    .contactForm{
+        background-color: transparent;
+    }
+
+    .contact{
+        width: 100%;
+        height: 108vh;
+    }
+
+    .contactUS{
+        display: none;
+    }
+
+    .contactLinks{
+        display: block;
+        margin-top: 3em;
+        color: #D434FE;
+        font-size: small;
+        text-align: center;
+    }
+
+    .contactLinks span{
+        padding-right: 10px;
+        color: white;
+    }
+
+    .contactForm{
+        grid-column: span 2;
+    }
+
+    .myForm textarea{
+        width: 100%;
+    }
+}

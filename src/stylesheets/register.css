@@ -1,0 +1,76 @@
+.registerHere{
+    background-color: #150E28;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+}
+
+.registerMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 3em;
+}
+
+.letsRegister{
+    background-color: rgb(247, 247, 136);
+    width: 100%;
+}
+
+/* .registerHere{
+    background-color: #150E28;
+    box-sizing: border-box;
+    font-family: segoe UI Symbol;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.register{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em;
+}
+
+.regisLeadText{
+    font-size: 2em;
+    font-weight: 600;
+    color: #D434FE;
+}
+
+.firstFormDiv{
+    display:flex ;
+    align-items: center;
+    gap: 20px;
+    padding-top: 18px;
+    row-gap: 40px;
+}
+
+.firstFormDiv input{
+    margin-top: 10px;
+    padding: 0.7em;
+    width: 30vh;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.regisBtn{
+    padding: 10px 2em;
+    width: 62%;
+    margin-top: 1em;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient( to right, #D434FE, #903AFF);
+    border: 1px solid #903AFF;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:950px){
+   .myForm{
+    grid-column: span 2;
+   }
+} */
