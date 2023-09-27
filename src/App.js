@@ -7,9 +7,9 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Routes>
-      <Route path='' element={<Register />}></Route>
-      {/* <Route path='' element={<Home />}></Route> */}
-      {/* <Route path='' element={<Contact />}></Route> */}
+      <Route path='register' element={<Register />}></Route>
+      <Route path='/' element={<Home />}></Route>
+      <Route path='contact' element={<Contact />}></Route>
     </Routes>
   );
 }
