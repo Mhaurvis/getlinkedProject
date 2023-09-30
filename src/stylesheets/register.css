@@ -3,40 +3,30 @@
     box-sizing: border-box;
     color: white;
     width: 100%;
+    height: 200vh;
 }
 
 .registerMe{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    padding: 3em;
+    /* justify-items: center; */
+    padding: 0.5em 3em;
 }
 
 .letsRegister{
-    background-color: rgb(247, 247, 136);
     width: 100%;
 }
 
-/* .registerHere{
-    background-color: #150E28;
-    box-sizing: border-box;
-    font-family: segoe UI Symbol;
-    color: white;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.register{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2em;
-}
-
-.regisLeadText{
-    font-size: 2em;
-    font-weight: 600;
+.firstLeadText{
+    font-size: 2.5em;
+    font-weight:600;
     color: #D434FE;
+}
+
+.secondLeadText{
+    font-size: smaller;
+    font-style: italic;
+    color: #903AFF;
 }
 
 .firstFormDiv{
@@ -57,7 +47,7 @@
 
 .regisBtn{
     padding: 10px 2em;
-    width: 62%;
+    width: 75%;
     margin-top: 1em;
     font-size: 15px;
     color: white;
@@ -69,8 +59,79 @@
     align-items: center;
 }
 
-@media screen and (max-width:950px){
-   .myForm{
-    grid-column: span 2;
-   }
+.regReview{
+    font-size: smaller;
+    font-style: italic;
+    color: #D434FE;
+}
+
+.regSpan{
+    font-size: smaller ;
+}
+
+@media (max-width:850px){
+    .registerMe{
+        grid-template-columns: 1fr;
+    }
+
+    .regImg img{
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .letsRegister{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstLeadText{
+        display: none;
+    }
+    
+    .thirdLeadText{
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .firstFormDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:570px){
+    .regImg img{
+        height: 250px;
+    }
+
+    .firstFormDiv input{
+        width: 100%;
+    }
+    
+    .regReview{
+        font-size: x-small;
+    }
+
+    .regSpan{
+        font-size: x-small;
+    }
+}
+
+@media (max-width:350px){
+    .regImg img{
+        height: 200px;
+    }
+}
+
+@media (max-width:250px){
+    .regImg img{
+        height: 150px;
+    }
+}
+/* 
+@media (orientation: landscape){
+    .letsRegister{
+        height: 100vh;
+    }
 } */

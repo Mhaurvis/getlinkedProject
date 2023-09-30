@@ -2,6 +2,8 @@ import React from "react";
 import img17 from '../images/img17.png';
 import Nav from "../components/Navbar";
 import '../stylesheets/register.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 function Register(){
     return(
@@ -11,26 +13,16 @@ function Register(){
            </div>
 
            <div className="registerMe">
-                <div>
+                <div className="regImg">
                     <img src={img17} alt="" style={{width: '100%'}} />
                 </div>
                 <div className="letsRegister">
-                    <p>Register</p>
-                    <p>Be a part of this movement</p>
-                </div>
-           </div>
+                    <p className="firstLeadText">Register</p>
+                    <p className="secondLeadText">Be a part of this movement <span style={{color: 'gold'}} className="fa fa-smile-o"></span></p>
+                    <p className="thirdLeadText">CREATE YOUR ACCOUNT</p>
 
-           {/* <div className="register">
-                <div className="registerImg">
-                    <img src={img17} alt="" style={{width: '100%'}} />
-                </div>
-                <div className="myForm">
-                    <p className="regisLeadText">Register</p>
-                    <p>Be a part of this movement</p>
-                    <p>CREATE YOUR ACCOUNT</p>
-                    <form className="myRegisterForm">
-
-                        <div className="firstFormDiv">
+                   <form action="post">
+                   <div className="firstFormDiv">
                             <div className="">
                                 <label htmlFor="">Team's Name: </label> <br />
                                  <input type="text" placeholder="Enter the name of your group" />
@@ -62,15 +54,16 @@ function Register(){
                                 <input type="text" placeholder="Select" />
                             </div>
                         </div>
+                   </form>
 
-                        <p style={{fontSize: 'smaller'}}>Please review your registration details before submitting</p>
-                        <p style={{fontSize: 'smaller'}}><input type="checkbox" /> I agreed with te events terms and condition and privacy policy</p>
+                   <p className="regReview">please review your registration details before submitting</p>
 
-                        <button className="regisBtn">Register Now</button>
+                   <span className="regSpan"><input type="checkbox" /> I agree with the terms and conditions and privacy policy </span>
 
-                    </form>
+                   <button className="regisBtn">Register Now</button>
+
                 </div>
-           </div> */}
+           </div>
         </div>
     )
 }

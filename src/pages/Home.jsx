@@ -90,19 +90,19 @@ function Home(){
 
             <div className="sectionFive">
                 <div>
-                    <p className='s5-leadText'>Frequently Ask <span style={{color: '#D434FE'}}>Question</span></p>
+                    <p className='s5-leadText'>Frequently Ask <span style={{color: '#D434FE'}}> Questions </span></p>
                     <p>We got answers to the question that you might want to ask about getLinked Hackathon 1.0</p>
-                    <p>Can I work on a project I started before the Hackathon?</p> <span className='fa fa-plus'></span>
+                    <p>Can I work on a project I started before the Hackathon? <span className='fa fa-plus'></span></p> 
                     <hr />
-                    <p>What happens If I need help during the Hackathon?<span></span></p>
+                    <p>What happens If I need help during the Hackathon? <span className='fa fa-plus'></span></p>
                     <hr />
-                    <p>What happens if I dont have an idea for a Project? </p>
+                    <p>What happens if I dont have an idea for a Project? <span className='fa fa-plus'></span></p>
                     <hr />
-                    <p>Can I join a team or do I have to come with one?</p>
+                    <p>Can I join a team or do I have to come with one? <span className='fa fa-plus'></span></p>
                     <hr />
-                    <p>What happens after the Hackathon ends?</p>
+                    <p>What happens after the Hackathon ends? <span className='fa fa-plus'></span></p>
                     <hr />
-                    <p>Can I work on a project I started before the Hackathon?</p>
+                    <p>Can I work on a project I started before the Hackathon? <span className='fa fa-plus'></span></p>
                     <hr />
                 </div>
                 <div>

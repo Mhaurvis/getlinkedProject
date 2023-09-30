@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 180vh;
+    overflow-y: scroll;
 }
 
 .contactForm{
@@ -78,7 +80,7 @@
     display: none;
 }
 
-@media screen and (max-width:650px){
+@media (max-width:650px){
     .myContactPage{
         padding: 1em;
     }

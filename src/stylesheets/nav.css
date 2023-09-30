@@ -17,6 +17,18 @@
     text-decoration: none;
 }
 
+.active{
+    color: #D434FE;
+}
+
+.navLinks:hover{
+    color: #D434FE;
+}
+
+.navLinks:checked{
+    color: #903AFF;
+}
+
 .navButton{
     padding: 10px 3em;
     font-size: 15px;
@@ -26,26 +38,35 @@
     border-radius: 4px;
 }
 
+.navButton:hover{
+    background-color: yellow;
+}
+
 .mobile-menu-button{
     cursor: pointer;
     display: none;
 }
 
 
-@media screen and (max-width: 800px){
-    .menu{
-        display: none;
-        background-color: yellow;
+@media screen and (max-width: 850px){
+    /* .myNavLinks ul{
+        position: fixed;
         width: 100%;
-        position: absolute;
-        top: 60px;
+        height: 100vh;
+        background-color: black;
+        top: 80px;
         left: 0;
-        text-align: center;
-        z-index: 1;
-    }
+        text-align: left;
+    } */
 
-    .menu .active{
-        display: flex;
+    /* .myNavLinks .navLinks{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    } */
+
+    .myNavLinks ul{
+        display: none;
     }
 
     .mobile-menu-button{
@@ -53,7 +74,7 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media (max-width: 450px){
     .navbar p{
         font-size: 25px;
         font-weight: 600;
