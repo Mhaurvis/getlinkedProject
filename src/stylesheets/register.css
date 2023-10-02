@@ -29,6 +29,10 @@
     color: #903AFF;
 }
 
+.thirdLeadText{
+    font-weight: 600;
+}
+
 .firstFormDiv{
     display:flex ;
     align-items: center;

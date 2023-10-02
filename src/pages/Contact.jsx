@@ -36,7 +36,7 @@ function Contact(){
                    </div>
                  </form>
 
-                 <button className=" formButton">Submit</button>
+                 <button className=" formButton">Submit <span style={{paddingLeft:'5px'}} className="fa fa-telegram"></span></button>
                  <p className="contactLinks">Share on <br /> 
                         <span className="fa fa-instagram"></span><span className="fa fa-twitter"></span><span className="fa fa-facebook"></span><span className="fa fa-linkedin"></span>
                     </p>
